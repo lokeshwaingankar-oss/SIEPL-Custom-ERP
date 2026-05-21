@@ -1,0 +1,46 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "User",
+  "enabled": 1,
+  "modified": "2026-05-21 16:47:36.862004",
+  "module": "SIEPL Custom ERP",
+  "name": "Dashboards",
+  "script": "frappe.ready(() => {\r\n\r\n    const applyRedBorder = () => {\r\n        const widgets = document.querySelectorAll('.widget, .widget-number, .stat-card');\r\n\r\n        widgets.forEach(widget => {\r\n            const text = widget.innerText.toLowerCase();\r\n\r\n            if (text.includes(\"outgoing\")) {\r\n                widget.classList.add(\"red-border\");\r\n            }\r\n        });\r\n    };\r\n\r\n    // Retry because ERPNext loads dynamically\r\n    let count = 0;\r\n    const interval = setInterval(() => {\r\n        applyRedBorder();\r\n        count++;\r\n        if (count > 10) clearInterval(interval);\r\n    }, 500);\r\n\r\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Employee",
+  "enabled": 1,
+  "modified": "2026-05-21 16:47:28.644692",
+  "module": "SIEPL Custom ERP",
+  "name": "EmployeeAge",
+  "script": "frappe.ui.form.on('Employee', {\r\n    onload: function(frm) {\r\n        frm.set_df_property('custom_age', 'read_only', 1); // 👈 makes field read only\r\n    },\r\n    date_of_birth: function(frm) {\r\n        if (frm.doc.date_of_birth) {\r\n            let age = moment().diff(frm.doc.date_of_birth, 'years');\r\n            frm.set_value('custom_age', age);\r\n        }\r\n    }\r\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Attendance",
+  "enabled": 0,
+  "modified": "2026-05-21 16:47:51.678578",
+  "module": "SIEPL Custom ERP",
+  "name": "OT_hrs",
+  "script": "if (!Number.isInteger(frm.doc.custom_ot_hrs)) {\r\n    frappe.throw(\"OT Hours must be a whole number\");\r\n}",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Item Group",
+  "enabled": 0,
+  "modified": "2026-05-21 16:47:44.190120",
+  "module": "SIEPL Custom ERP",
+  "name": "Purchase Order Item",
+  "script": "",
+  "view": "Form"
+ }
+]
