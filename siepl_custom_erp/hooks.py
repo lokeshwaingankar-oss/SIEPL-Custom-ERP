@@ -26,8 +26,15 @@ app_license = "mit"
 fixtures = [
     {
         "dt": "Client Script"
+    },
+    {
+        "dt": "Report"
+    },
+    {
+        "dt": "Print Format"
     }
 ]
+
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/siepl_custom_erp/css/siepl_custom_erp.css"
