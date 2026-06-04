@@ -1,0 +1,93 @@
+[
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-05-08 10:41:47.743697",
+  "name": "o9gjnf52hr",
+  "source_text": "Purchase Order",
+  "translated_text": "Purchase Order"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-05-31 13:34:15.907411",
+  "name": "cnv1imj5g0",
+  "source_text": "ERPNext Settings",
+  "translated_text": "SIEPL ERP Settings"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-05-31 14:01:45.422069",
+  "name": "sreq3burf3",
+  "source_text": "Frappe Framework",
+  "translated_text": "SIEPL ERP"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-05-31 14:07:30.422574",
+  "name": "078q3oucag",
+  "source_text": "ERPNext",
+  "translated_text": "SIEPL ERP"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-06-02 14:58:12.188023",
+  "name": "l8agls3m2i",
+  "source_text": "Buying",
+  "translated_text": "Purchase"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-06-02 14:59:23.893966",
+  "name": "lhp26l1i5b",
+  "source_text": "Selling",
+  "translated_text": "Sales"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2026-06-02 17:10:02.791285",
+  "name": "2lr5p1htd4",
+  "source_text": "Frappe HR",
+  "translated_text": "SIEPL HR"
+ }
+]
