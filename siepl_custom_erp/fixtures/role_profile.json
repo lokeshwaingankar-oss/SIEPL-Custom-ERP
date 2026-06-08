@@ -1,0 +1,293 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-16 23:44:19.951839",
+  "name": "Inventory",
+  "role_profile": "Inventory",
+  "roles": [
+   {
+    "parent": "Inventory",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Inventory",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Inventory",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Item Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-16 23:44:19.993211",
+  "name": "Purchase",
+  "role_profile": "Purchase",
+  "roles": [
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Item Manager"
+   },
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-16 23:45:44.274934",
+  "name": "HR",
+  "role_profile": "HR",
+  "roles": [
+   {
+    "parent": "HR",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR User"
+   },
+   {
+    "parent": "HR",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR Manager"
+   },
+   {
+    "parent": "HR",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Leave Approver"
+   },
+   {
+    "parent": "HR",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Expense Approver"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-09-12 19:49:06.294825",
+  "name": "Accounts junior",
+  "role_profile": "Accounts junior",
+  "roles": [
+   {
+    "parent": "Accounts junior",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Junior"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2026-03-09 17:57:11.827052",
+  "name": "SalesExecutive",
+  "role_profile": "SalesExecutive",
+  "roles": [
+   {
+    "parent": "SalesExecutive",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Executive"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2026-04-26 19:21:41.178897",
+  "name": "RF_AccountsBlr",
+  "role_profile": "RF_AccountsBlr",
+  "roles": [
+   {
+    "parent": "RF_AccountsBlr",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "RoleAccountsBlr"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-21 22:15:10.779247",
+  "name": "VP",
+  "role_profile": "VP",
+  "roles": [
+   {
+    "parent": "VP",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee Self Service"
+   },
+   {
+    "parent": "VP",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-21 22:59:24.625424",
+  "name": "Accounts Manager",
+  "role_profile": "Accounts Manager",
+  "roles": [
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee Self Service"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-09-07 17:26:57.922894",
+  "name": "Mines role Manager",
+  "role_profile": "Mines role Manager",
+  "roles": [
+   {
+    "parent": "Mines role Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Mines role Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-09-17 19:48:19.829484",
+  "name": "Accounts S",
+  "role_profile": "Accounts S",
+  "roles": [
+   {
+    "parent": "Accounts S",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-16 23:44:19.962483",
+  "name": "Manufacturing",
+  "role_profile": "Manufacturing",
+  "roles": [
+   {
+    "parent": "Manufacturing",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Manufacturing",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing User"
+   },
+   {
+    "parent": "Manufacturing",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-08-30 11:56:42.315798",
+  "name": "Sales",
+  "role_profile": "Sales",
+  "roles": [
+   {
+    "parent": "Sales",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Sales",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Sales",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee Self Service"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-21 23:56:17.671984",
+  "name": "Accounts",
+  "role_profile": "Accounts",
+  "roles": [
+   {
+    "parent": "Accounts",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Accounts",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Accounts",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee Self Service"
+   }
+  ]
+ }
+]

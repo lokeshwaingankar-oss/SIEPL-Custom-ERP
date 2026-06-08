@@ -25,13 +25,13 @@ app_license = "mit"
 # ------------------
 fixtures = [
     {
-        "dt": "Client Script"
+        "dt": "Role Profile",
     },
     {
-        "dt": "Report"
+        "dt": "Custom DocPerm",
     },
     {
-        "dt": "Print Format"
+        "dt": "Role",
     }
 ]
 
