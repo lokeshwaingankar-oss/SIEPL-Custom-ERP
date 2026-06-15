@@ -149,13 +149,11 @@ fixtures = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Employee": {
+		"after_insert": "siepl_custom_erp.custom_changes.employee.create_user_and_permission"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
