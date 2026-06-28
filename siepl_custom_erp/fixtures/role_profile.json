@@ -7,21 +7,12 @@
   "role_profile": "Inventory",
   "roles": [
    {
-    "parent": "Inventory",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Stock User"
    },
    {
-    "parent": "Inventory",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Stock Manager"
    },
    {
-    "parent": "Inventory",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Item Manager"
    }
   ]
@@ -34,27 +25,15 @@
   "role_profile": "Purchase",
   "roles": [
    {
-    "parent": "Purchase",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Item Manager"
    },
    {
-    "parent": "Purchase",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Stock User"
    },
    {
-    "parent": "Purchase",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Purchase User"
    },
    {
-    "parent": "Purchase",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Purchase Manager"
    }
   ]
@@ -67,27 +46,15 @@
   "role_profile": "HR",
   "roles": [
    {
-    "parent": "HR",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "HR User"
    },
    {
-    "parent": "HR",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "HR Manager"
    },
    {
-    "parent": "HR",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Leave Approver"
    },
    {
-    "parent": "HR",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Expense Approver"
    }
   ]
@@ -100,9 +67,6 @@
   "role_profile": "Accounts junior",
   "roles": [
    {
-    "parent": "Accounts junior",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Junior"
    }
   ]
@@ -115,9 +79,6 @@
   "role_profile": "SalesExecutive",
   "roles": [
    {
-    "parent": "SalesExecutive",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Sales Executive"
    }
   ]
@@ -130,9 +91,6 @@
   "role_profile": "RF_AccountsBlr",
   "roles": [
    {
-    "parent": "RF_AccountsBlr",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "RoleAccountsBlr"
    }
   ]
@@ -145,15 +103,9 @@
   "role_profile": "VP",
   "roles": [
    {
-    "parent": "VP",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Employee Self Service"
    },
    {
-    "parent": "VP",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Employee"
    }
   ]
@@ -166,15 +118,9 @@
   "role_profile": "Accounts Manager",
   "roles": [
    {
-    "parent": "Accounts Manager",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Employee Self Service"
    },
    {
-    "parent": "Accounts Manager",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Accounts Manager"
    }
   ]
@@ -187,9 +133,6 @@
   "role_profile": "Mines role Manager",
   "roles": [
    {
-    "parent": "Mines role Manager",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Mines role Manager"
    }
   ]
@@ -202,9 +145,6 @@
   "role_profile": "Accounts S",
   "roles": [
    {
-    "parent": "Accounts S",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Manager"
    }
   ]
@@ -217,21 +157,12 @@
   "role_profile": "Manufacturing",
   "roles": [
    {
-    "parent": "Manufacturing",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Stock User"
    },
    {
-    "parent": "Manufacturing",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Manufacturing User"
    },
    {
-    "parent": "Manufacturing",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Manufacturing Manager"
    }
   ]
@@ -244,21 +175,12 @@
   "role_profile": "Sales",
   "roles": [
    {
-    "parent": "Sales",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Sales User"
    },
    {
-    "parent": "Sales",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Stock User"
    },
    {
-    "parent": "Sales",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Employee Self Service"
    }
   ]
@@ -271,21 +193,12 @@
   "role_profile": "Accounts",
   "roles": [
    {
-    "parent": "Accounts",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Accounts User"
    },
    {
-    "parent": "Accounts",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Accounts Manager"
    },
    {
-    "parent": "Accounts",
-    "parentfield": "roles",
-    "parenttype": "Role Profile",
     "role": "Employee Self Service"
    }
   ]
